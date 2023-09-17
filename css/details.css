@@ -1,0 +1,161 @@
+.details-column{
+    display:flex;
+    flex-direction: column;
+    width:100vw;
+    padding-right:10vw;
+    padding-left:15vw;
+    justify-content:center;
+    margin-top:50px;
+}
+
+.details-column hr{
+    width:70vw;
+    margin-top:100px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-left:10px;
+}
+#details{
+    position:relative;  
+    margin-top:250px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    width:60vw;
+    font-size:40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    color:rgb(235, 232, 232);  
+    border-radius:20px;
+    background-color:rgb(245, 241, 241,0.2);  
+}
+#details h2{
+    text-align:center;
+    margin:5px;   
+}
+#details p{
+    text-align:center;
+    margin:15px;
+}
+#details img{
+    position:absolute;
+    top:-27px;
+    left:-18px;
+    border-radius:240px;
+    border: 5px solid #7843e9;
+    z-index:3;
+    width: 6vw;
+}
+.laptopimage{
+    display:flex;
+    flex-shrink:0;
+    padding-top:50px;
+    width:100vw;
+}
+#socialsbar{
+    position:absolute;
+    top:350px;
+    z-index:9;
+    display:flex;
+    flex-direction:column;
+    background-color: white;
+    height:250px;
+    width:60px; 
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+#socialsbar a img{
+    padding:5px;
+    width: 30px;
+    border:none;
+    color: white;
+    border-radius:4px;
+}
+#socialsbar a img:hover{
+    background-color:#7843e9;
+    transition: 0.15s;
+}
+#productSection{
+    margin-top:230px;
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    width:60vw;
+    height:60vh;
+    color:white;
+    justify-content:space-between;  
+}
+.productbox{
+    width:auto;
+    height:auto;
+    margin-left: 10px;
+}
+.productbox p{
+    margin-bottom:5px;
+}
+.productbox p:hover{
+    font-size:24px;
+    transition:0.30s;
+    font-weight:bold;
+}
+.productbox h3:hover{
+    font-size:24px;
+    transition:0.30s;
+    font-weight:bold;
+}
+
+
+#productSection h2{
+    text-align: center;
+    font-size:40px;
+}
+#productdetails{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size:24x;
+    text-align: center;
+    margin: 25px;
+}
+.productbox img{
+    width:15vw;
+}
+.productbox img:hover{
+    width:20vw;
+    transition:0.30s;
+    cursor:pointer;
+}
+
+#productdetails div{
+    font-size: 16px;
+    margin: 25px;
+    border-radius:10px;
+
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.info-plus-socials{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-top:50px;
+}
+.footer-socials a img{
+    padding:5px;
+    width: 30px;
+    border:none;
+    color: white;
+    border-radius:4px;
+}
+.footer-bottom{
+    text-align:center;
+    font-size:12px;
+    margin:25px;
+}
+hr{
+    width:65vw;
+    margin:auto;
+}
+

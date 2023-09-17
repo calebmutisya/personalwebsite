@@ -1,0 +1,74 @@
+#aboutbody{
+    margin-top:50px;
+    min-height:70vh;
+    font-family:  'Roboto', Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+.aboutmesection{
+    width:100vw;
+    margin:auto;
+    text-align: center;
+    padding-top:75px;
+    color:white;   
+}
+.aboutmesection hr{
+    width:20vw;
+    border: 5px solid white;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.aboutmehorizontal{
+    display:flex;
+    flex-direction:row;
+    text-align: left;
+    justify-content: space-between;
+    padding-right: 15vw;
+    padding-left:15vw;
+}
+.aboutmehorizontal a button{
+    margin-top:20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    width:100px;
+    background-color: #7843e9;
+    color:white;
+    border-radius: 10px;
+    border-style: none;
+}
+.aboutmehorizontal a button:hover{
+    background-color: white;
+    color:#7843e9;
+    transition: 0.15s;
+}
+.aboutmehorizontal h2{
+    text-align: center;
+    margin:25px;
+}
+.aboutmehorizontal p{
+    padding:5px;
+}
+.myskills{
+    width:400px;
+}
+.myskills div{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;   
+}
+.myskillsgrid div{
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    width:170px;
+    height:30px;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+.myskillsgrid div:hover{
+    color:black;
+    background-color:white;
+    border-color:#7843e9;
+}
+

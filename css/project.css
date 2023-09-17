@@ -1,0 +1,96 @@
+#projectcolumn{
+    width:100%;
+    margin:auto;
+    padding-left:10vw;
+    padding-top:25px;
+    padding-right: 10vw;
+    color:white;
+}
+
+
+.projectsbody{
+    margin-top:50px;
+    margin-bottom: 50px;
+    
+    text-align: center;
+    font-family:  'Roboto', Helvetica, sans-serif;
+}
+.projectstitle hr{
+    width:300px;
+    border: 3px solid #7843e9;
+    border-radius: 10px;
+    margin-top:25px;  
+}
+.titlep{
+    margin-top:25px;
+
+}
+
+.projectstitle p:hover{
+    color:#7843e9;
+    font-weight: bold;
+}
+.projectsbody a button{
+    margin-top:20px;
+    line-height: 30px;
+    width:100px;
+    background-color: #7843e9;
+    color:white;
+    border-radius: 10px;
+    border-style: none;
+}
+.projectsbody button:hover{
+    background-color:white;
+    color: #7843e9;
+    transition:0.15s;
+}
+.project{
+    margin-bottom:50px;
+    min-height:30vh;
+}
+.project div h3{
+    padding:10px;
+    margin-top:15px;
+    background-color:#7843e9;
+    border-radius: 10px;
+}
+.project div p:hover{
+    color:#7843e9;
+    font-size:24px;
+    font-weight: bold;
+    transition: 0.15s;
+    background-color:white;
+}
+.project h3:hover{
+    color:#7843e9;
+    font-size:24px;
+    font-weight: bold;
+    transition: 0.15s;
+    background-color:white;
+
+}
+.projectp{
+    background-color:#7843e9;
+    margin-top:10px;
+    border-radius: 10px;
+    width:25vw;
+}
+.imganddesc{
+    width:80vw;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.imganddesc img{
+    width:30vw;
+    border: 3px solid #7843e9;
+    border-radius: 10px;
+    margin-right:5vw;
+}
+.imganddesc img:hover{
+    width:35vw;
+    transition:0.30s;
+}
+.imganddesc .project{
+    display:flex;
+    flex-direction:row;
+}
